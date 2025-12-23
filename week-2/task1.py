@@ -1,0 +1,12 @@
+def main():
+    s = input()
+    count = 0
+    i = 0
+    while i <= len(s) - 5:
+        part = s[i:i+5]
+        if part == ">>-->" or part == "<--<<":
+            count += 1
+        i += 1
+    print(count)
+
+main()
