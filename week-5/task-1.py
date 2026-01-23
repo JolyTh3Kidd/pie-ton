@@ -2,10 +2,10 @@ import string
 import os
 from collections import Counter
 
-def does_exist(fname):
-    if not os.path.exists(fname):
-        with open(fname, "w") as f:
-            f.write("Code validation test")
+def does_exist(filename):
+    if not os.path.exists(filename):
+        with open(filename, "w") as f:
+            f.write("Something")
 
 def get_stats(filename):
     with open(filename, "r") as f:
