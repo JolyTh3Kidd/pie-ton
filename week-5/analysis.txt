@@ -1,0 +1,14 @@
+Lines: 3
+Words: 18
+hello: 2
+world: 3
+this: 2
+is: 3
+a: 1
+test: 1
+file: 1
+python: 1
+an: 1
+assignment: 1
+code: 1
+fun: 1
